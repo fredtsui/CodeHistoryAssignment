@@ -60,7 +60,7 @@ struct ContentView: View {
                     Button(action: {
                         print("Tapped on Choice 4")
                     }, label: {
-                        Text("Fly")
+                        Text("Wasp")
                             .font(.body)
                             .bold()
                             .multilineTextAlignment(.center)
