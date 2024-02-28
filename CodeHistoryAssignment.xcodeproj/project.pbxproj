@@ -15,6 +15,8 @@
 		B62E71AF2B8E9648004D6B64 /* CodeHistoryAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62E71AE2B8E9648004D6B64 /* CodeHistoryAssignmentTests.swift */; };
 		B62E71B92B8E9648004D6B64 /* CodeHistoryAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62E71B82B8E9648004D6B64 /* CodeHistoryAssignmentUITests.swift */; };
 		B62E71BB2B8E9648004D6B64 /* CodeHistoryAssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62E71BA2B8E9648004D6B64 /* CodeHistoryAssignmentUITestsLaunchTests.swift */; };
+		B62E71C82B8ED582004D6B64 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62E71C72B8ED582004D6B64 /* Question.swift */; };
+		B62E71CA2B8ED8E1004D6B64 /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62E71C92B8ED8E1004D6B64 /* ChoiceTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		B62E71B42B8E9648004D6B64 /* CodeHistoryAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeHistoryAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62E71B82B8E9648004D6B64 /* CodeHistoryAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeHistoryAssignmentUITests.swift; sourceTree = "<group>"; };
 		B62E71BA2B8E9648004D6B64 /* CodeHistoryAssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeHistoryAssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B62E71C72B8ED582004D6B64 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		B62E71C92B8ED8E1004D6B64 /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 			children = (
 				B62E719B2B8E9646004D6B64 /* CodeHistoryAssignmentApp.swift */,
 				B62E719D2B8E9646004D6B64 /* ContentView.swift */,
+				B62E71C92B8ED8E1004D6B64 /* ChoiceTextView.swift */,
+				B62E71C72B8ED582004D6B64 /* Question.swift */,
 				B62E719F2B8E9646004D6B64 /* Item.swift */,
 				B62E71A12B8E9648004D6B64 /* Assets.xcassets */,
 				B62E71A32B8E9648004D6B64 /* Preview Content */,
@@ -261,8 +267,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B62E719E2B8E9646004D6B64 /* ContentView.swift in Sources */,
+				B62E71C82B8ED582004D6B64 /* Question.swift in Sources */,
 				B62E71A02B8E9646004D6B64 /* Item.swift in Sources */,
 				B62E719C2B8E9646004D6B64 /* CodeHistoryAssignmentApp.swift in Sources */,
+				B62E71CA2B8ED8E1004D6B64 /* ChoiceTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
